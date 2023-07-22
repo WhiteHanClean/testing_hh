@@ -1,0 +1,19 @@
+.my_input {
+  max-width: 50%;
+  height: 52px;
+  background: #5a5c66;
+  color: #fff;
+  input {
+    color: #fff !important;
+    background: #5a5c66 !important;
+    &::placeholder {
+      color: #b2b7bf !important; // Здесь вы можете указать желаемый цвет для placeholder
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+    .my_input {
+        max-width: 100%;
+    }
+  }
